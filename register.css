@@ -97,11 +97,11 @@ line-height: 4rem;
 
 .form-container{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    width: 50%;
+    width: 100%;
     margin: 80px auto;
-    margin-left: 1010px;
+    padding-right: 150px;
 }
 
 form{
