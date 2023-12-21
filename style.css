@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li{
+    list-style: none;
+    font-size: 25px;
+}
+i{
+    color: #ffffff;
+    font-size: 25px;
+}
+main{
+    background:#0e2e53 ;
+}
+p, h1{
+    color: #ffffff;
+}
+.nav-header{
+    width: 100%;
+    display: flex;
+    background-color: #003366;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+.nav-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.nav-links ul{
+    display: flex;
+}
+.nav-links ul li a {
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.nav-links ul li a:hover{
+    color: turquoise;
+}
+.btn{
+    display: none;
+}
+
+.nav-icons{
+    display: flex;
+}
+.nav-icons i{
+    margin-right: 20px;
+}
+.first-section{
+    background-image: url(./images/background.jpg);
+    background-color: #0e2e53;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 500px;
+    /* padding: 30px 10px; */
+    
+}
+.first-section img{
+    border-radius: 50%;
+}
+
+.btn-enroll{
+    background-color: blue;
+    width: 200px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 20px;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.enroll{
+    width: 600px;
+    align-self: center;
+}
+.enroll > *{
+    margin-top: 30px;
+}
+
+.enroll p{
+    font-size: 25px;
+    font-weight: 700;
+}
+.enroll h1{
+    font-size: 50px;
+}
+.enroll span{
+    color: yellow;
+}
+
+.about{
+    padding: 20px;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    font-size: 25px;
+}
+
+.reasons i{
+ color: turquoise;
+ font-size: 88px;
+}
+.reasons {
+min-width: 500px;
+display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ gap: 50px;
+ flex-wrap:wrap ;
+}
+
+.reason_2{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.reason_2 li{
+    background-color: #ffffff;
+    color: #003366;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-top: 5px;
+}
+.second-section{
+    background-color: blue;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.second-section > h2{
+    font-size: 40px;
+}
+.second-section > div{
+    display: flex;
+    width: 1000px;
+    height: 70px;
+}
+.second-section  input{
+width: 100%;
+font-size: 18px;
+}
+::placeholder{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.btn-submit{
+    width: 20%;
+    font-size: 20px;
+    background: black;
+    color: #ffffff;
+    border: transparent;
+    cursor: pointer;
+}
+
+
+@media (max-width: 780px){
+
+    nav{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-icons{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links ul{
+        display: block;
+    }
+    .nav-links ul li a{
+        font-size: 20px;
+        /* transform: all 0.3s ease; */
+        cursor: pointer;
+        padding: 10px;
+        
+    }
+    .nav-links ul li a:hover{
+        color: teal;
+        background: steelblue;
+        padding-left: 20px;
+        border-radius: 10px;
+       
+    }
+    .active {
+        display: block;
+        padding-right: 20px;
+    }
+
+
+   
+    .nav-header{
+        display: block;
+    }
+    .nav-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .btn{
+        display: block;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: transparent;
+        background: transparent;
+        transform: rotate(90deg);
+
+    }
+}
+
+@media (max-width: 728px){
+
+}

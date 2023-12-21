@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+label{
+    display: block;
+    color: #011C34;
+    font-family: 'Sofia Sans', sans-serif;
+    margin-bottom: 5px;
+    font-size:25px;
+}
+::placeholder{
+    padding-left: 20px;
+    color: grey;
+    font-size:25px;
+}
+select { font-size: 25px;
+    padding-left:20px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+    appearance: none;
+
+  }
+input{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 25px;
+    background: transparent;
+}
+select{
+ width: 100%;
+height: 60px;
+border-radius: 5px;
+}
+
+.main-container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.display{
+    position: relative;
+    width: 50%;
+    height: 100vh;
+   background: #FEF6EE;
+}
+
+/* .big-circle{
+    width: 500px;
+    height: 500px;
+    background: #FBE4D0;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+
+.display-main{
+width: 500px;
+height: auto;
+margin: 0 auto;
+margin-top: 20vh;
+margin-bottom: 10vh;
+font-size: 50px;
+display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 4rem;
+}
+.diploma{
+    font-size: 25px;
+}
+.display-footer{
+    font-size: 25px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.display-footer ul{
+    justify-content: center;
+    display: flex;
+    gap: 35px;
+    margin-bottom: 30px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 80px auto;
+}
+
+form{
+    /* border: 1px solid black; */
+    width: 700px;
+    box-shadow: 0px 5px 15px 0px #0000000D;
+    box-shadow: 0px 15px 35px 0px #2B404E18;
+}
+
+.form-group{
+   
+    width: 600px;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.field-group{
+    width: 285px;
+    height: 90px;
+}
+.required::after{
+    content: "  *";
+    color: red;
+    font-size: 25px;
+}
+.form-footer{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.form-footer > * {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-footer :nth-child(1){
+    text-align: left;
+}
+.form-footer p{
+    font-size: 25px
+}
+
+.form-footer span{
+    color: #9370db;
+}
+.proceed-btn{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #b97eea;
+}
+
+.form-header{
+    width: 600px;
+    margin: 0 auto;
+}
+.form-header h1{
+    font-size: 60px;
+    margin: 15px auto;
+}
+.form-header p{
+    font-size: 25px;
+}
